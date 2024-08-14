@@ -1,0 +1,26 @@
+class Inheritance{
+  String name = "Murugan";
+  Inheritance(){
+   System.out.println("this is defalut Constructor");
+}
+}
+class Derived extends Inheritance{
+    void 
+    //super();
+    public static void main(String[] args){
+        Derived obj = new Derived(); 
+        System.out.println(obj.name);
+}
+   
+}
+
+
+pass by value doesnot  affect the main method variable
+
+pass by reference is affect the main method variable 
+
+static method accessable only static method only and static variable accessable staic method only
+
+staic variable called by class name Ex : class_name.static_variable_name 
+
+overloding constructor and with arguments and without arguments
